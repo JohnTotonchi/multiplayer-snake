@@ -76,6 +76,7 @@ function applySettings() {
 	$("#unitOut").innerText = unit;
 	foodValue = Number(foodValBox.value);
 	amtOfFood = Number(foodAmtBox.value);
+	advanceRate = Number(speed.value);
 	startScore = Number($("#startScoreBox").value);
 	refreshColors();
 }
