@@ -310,7 +310,7 @@ function drawBody(b) {
 
 function drawPlayers() {
 	ctx.lineCap = "round";
-	ctx.lineWidth = unit - 2;
+	ctx.lineWidth = unit - 1;
 	ctx.globalAlpha = 0.5;
 	for (var i = 0; i < deadPlayers.length; i++) {
 		ctx.strokeStyle = deadPlayers[i][1];
