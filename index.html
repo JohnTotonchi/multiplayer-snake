@@ -10,6 +10,7 @@
 
 			gtag('config', 'UA-114106362-3');
 		</script>
+		<script src="https://togetherjs.com/togetherjs-min.js"></script>
 
 		<title>Multiplayer Snake</title>
 		<meta name="robots" content="noindex">
@@ -63,6 +64,7 @@
 			<p>speed: <input type="number" value="5" id="speed"></p>
 			<p>Players Drop Food:<input type="checkbox"id="pFoodBox"checked="true"></p>
 			<p>Loop through screen edge:<input type="checkbox"id="loopBox"></p>
+			<button onclick="TogetherJS(this); return false;">Start TogetherJS</button>
 			<div><input type="button" value="Resume" onclick="togglePause()"><input type="button" value="Reset Options" onclick="resetOptions()"></div>
 			<small>Ver 2.2</small>
 		</form>
