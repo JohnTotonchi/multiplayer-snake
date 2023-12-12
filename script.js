@@ -99,7 +99,7 @@ function resetOptions() {
 }
 
 document.onkeydown = (e) => {
-	if (e.key == "Escape") { togglePause() }
+	if (e.key == "Enter") { togglePause() }
 	if (!paused) {
 		var key = e.key.toLowerCase();
 		for (var p = 0; p < controls.length; p++) {
