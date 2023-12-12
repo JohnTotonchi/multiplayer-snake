@@ -309,7 +309,7 @@ function drawBody(b) {
 }
 
 function drawPlayers() {
-	ctx.lineCap = "square";
+	ctx.lineCap = "round";
 	ctx.lineWidth = unit - 2;
 	ctx.globalAlpha = 0.5;
 	for (var i = 0; i < deadPlayers.length; i++) {
