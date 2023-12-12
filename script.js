@@ -255,7 +255,7 @@ function resizeCanvas() {
 }
 
 function grid() {
-	ctx.strokeStyle = "gray";
+	ctx.strokeStyle = "blue";
 	for (var i = 0; i < dimension[0]+1; i++) {
 		ctx.beginPath();
 		ctx.moveTo(i * unit, 0);
