@@ -212,21 +212,21 @@ function die() {
 	}
 }
 
-//function killPlayers() {
-	//for (var i = 0; i < nOfPlayers; i++) {
-		//if (deathRow[i]) {
-			//var playerFoodValue = Math.floor(body[i].length/(foodValue*2))*foodValue;
-			//if (playerFoodValue > 0 && score[i] > 0 && $("#pFoodBox").checked) {
-			//	playerFood[i].unshift([body[i][0][0], body[i][0][1], playerFoodValue]);
-			//}
-		//	deadPlayers.unshift([[...body[i]], colors[i]]);
-		//	body[i] = [[...startLocation[i]]];
-	//		direction[i] = startDirection[i];
-	//		score[i] = startScore;
-//			deathRow[i] = false;
-//		}
-//	}
-// }
+function killPlayers() {
+	for (var i = 0; i < nOfPlayers; i++) {
+		if (deathRow[i]) {
+			var playerFoodValue = Math.floor(body[i].length/(foodValue*2))*foodValue;
+			if (playerFoodValue > 0 && score[i] > 0 && $("#pFoodBox").checked) {
+				playerFood[i].unshift([body[i][0][0], body[i][0][1], playerFoodValue]);
+			}
+			deadPlayers.unshift([[...body[i]], colors[i]]);
+			body[i] = [[...startLocation[i]]];
+			direction[i] = startDirection[i];
+			score[i] = startScore;
+			deathRow[i] = false;
+		}
+	}
+}
 
 function calculate() {
 	for (var i = 0; i < food.length; i++) {
