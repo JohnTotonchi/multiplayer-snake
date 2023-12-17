@@ -1,7 +1,6 @@
 # Multiplayer Snake  
 
-Hello! This is a re-write of a game I made a long time ago, with more features! It is super fun to play alone or with friends! I hope you enjoy!  
-
+just some tiny changes of the ORIGINAL game below:
 Play the game [here](https://pgattic.github.io/multiplayer-snake)!  
 
 ## Controls  
