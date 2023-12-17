@@ -1,6 +1,6 @@
 # Multiplayer Snake  
 
-just some tiny changes of the ORIGINAL game below:
+just some tiny changes of this ORIGINAL game:
 Play the game [here](https://pgattic.github.io/multiplayer-snake)!  
 
 ## Controls  
